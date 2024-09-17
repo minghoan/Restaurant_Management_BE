@@ -20,6 +20,7 @@ sequelize
 		console.log('Database connected');
 		app.listen(PORT, () => {
 			console.log(`Server is running on http://localhost:${PORT}`);
+			console.log(`API documentation is running on http://localhost:${PORT}/api-docs`);
 		});
 	})
 	.catch((err) => {
